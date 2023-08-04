@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEFIT-Gym,Fitness,Healthy Zone....</title>
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <!-- bootsrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" style=" font-size : 25px; margin-left:1vw;" href="index.html"><span
+          id="logo_span">BE</span>FIT</a>
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" style="margin-left:47vw;">
+          <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link text-white" href="#About">About</a>
+          <a class="nav-link text-white" href="#features">Features</a>
+          <a class="nav-link text-white" href="#subscriptions">Subscriptions</a>
+          <a class="nav-link text-white" href="#calculator">Calculator</a>
+          <a class="nav-link text-white" href="#contact">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="img-1">
+        <aside class="first_img_aside">
+          <h5 id="first_img_para">Be Strong , Be Fit</h5>
+          <h2 id="first_img_heading">Make Yourself Stronger <br> Than Your Excuses.</h2>
+          <button class="button "> <a class="nav-link" href="#subscriptions">Get Started</a></button>
+        </aside>
+        <img src="images/img12.jpg"  class="d-block w-100 img1" alt="..." style="z-index: -1; opacity: 0.60;">
+      </div>
+      <div class="carousel-item">
+        <aside class="second_img_aside">
+          <h2 id="second_img_heading">For Both <br> <span style="color:#f00;">Women and Men</span></h2>
+        </aside>
+        <img src="images/img2.jpg" class="d-block w-100" alt="..." id="img-2"
+          style="z-index:-2;opacity: 0.60; position: relative; bottom: 45vh;">
+      </div>
+      <div class="carousel-item">
+        <aside class="third_img_aside">
+          <h2 class="text-center" id="third_img_heading">Personal Trainer <br> <span style="color:#f00;"> is
+              available</span></h2>
+        </aside>
+        <img src="images/img14.jpg" class="d-block w-100" alt="..." id="img-3"
+          style="z-index:-3;opacity: 0.60; position: relative; bottom: 22vh;">
+      </div>
+    </div>
+  </div>
+
+  <!-- About us -->
+
+  <div class="card mb-3" id="About" style="max-width: 100%; background-color: black; padding-top: 2vh;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="images/img1.jpg" class="img-fluid rounded-start aboutus_img" alt="..." style="height:90%;  padding: 2vw 3vh;">
+      </div>
+      <!-- Title of about us -->
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-title" style="color: #f00;">About us</p>
+          <h2 class="card-text" style="color: white;">Every Day is a better after Workout</h2>
+
+          <p style="color: white;"><small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum obcaecati
+              aliquid veritatis temporibus, eaque officiis eius reiciendis optio corporis incidunt nobis neque minus est
+              et vel laboriosam, quae explicabo debitis molestiae recusandae. Eius, enim accusamus!</small></p>
+
+          <!-- about-us-checkers 1 left and right -->
+          <div class="d-flex justify-content-between" id="about-us-checkers">
+            <i class="fa-solid fa-check " style="color: #f00">
+              <h5 style="color:white; padding-left: 1vw; display: inline-block;">Body and Mind</h5><br>
+              <p id="left-first-para"><small style="color:gray;">Lorem ipsum dolor sit elit. <br> Ipsum fugit
+                </small></p>
+            </i>
+
+
+            <div id="right-first-checker" style="padding-right: 3vw;">
+              <i class="fa-solid fa-check fa-lg" style="color: #f00">
+                <h5 style="color:white; padding-left: 1vw; display: inline-block;">Healthy Life</h5>
+              </i>
+              <br>
+              <p id="right-first-para"><small style="color:gray;">Lorem ipsum dolor sit elit. <br> Ipsum fugit </small>
+              </p>
+            </div>
+          </div>
+
+          <!-- about-us-checkers 2 left and right -->
+
+          <div class="d-flex justify-content-between" id="about-us-checkers-right">
+            <i class="fa-solid fa-check fa-lg" style="color: #f00">
+              <h5 style="color:white; padding-left: 1vw; display: inline-block;">Strategies</h5> <br>
+              <p id="left-second-para"><small style="color:gray;">Lorem ipsum dolor sit elit. <br> Ipsum fugit </small>
+              </p>
+            </i>
+
+
+
+            <div id="right-second-checker" style="padding-right: 3vw;">
+              <i class="fa-solid fa-check fa-lg" style="color: #f00">
+                <h5 style="color:white; padding-left: 1vw; display: inline-block;">Workout</h5>
+              </i>
+              <br>
+              <p id="right-second-para" style="display:inline;"><small style="color:gray;">Lorem ipsum dolor sit elit.
+                  <br> Ipsum fugit </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- Gym features -->
+  <section id="features">
+    <div id="gym-features">
+      <h3 class="d-flex align-item-center">Gym Features</h3>
+    </div><br>
+
+    <div class="container text-center">
+      <div class="row row-cols-3">
+        <div class="col"><img src="images/img1.jpg" alt="" style="width:25vw;"></div>
+        <div class="col">
+          <img src="images/img9.png" alt="" style="width:12vw; filter: invert(100%); display: inline;">
+          <h5 style="color:#f00; font-family:sans-serif;">Body Building</h5>
+          <p style="color:white; font-size: smaller;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error
+            dolor voluptatem suscipit, quos tenetur? Molestiae veniam nihil laudantium ipsam!</p>
+        </div>
+        <div class="col"><img src="images/img8.jpg" alt="" style="width:25vw;"></div>
+        <div class="col">
+          <img src="images/img10.png" alt="" style="width:9.5vw; filter: invert(100%);">
+          <h5 style="color:#f00; font-family:sans-serif;">Gym For Men & Women</h5>
+          <p style="color:white; font-size: smaller;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error
+            dolor voluptatem suscipit, quos tenetur? Molestiae veniam nihil laudantium ipsam!</p>
+        </div>
+        <div class="col"><img src="images/img4.jpg" alt="" style="width:25vw;"></div>
+        <div class="col">
+          <img src="images/img11.png" alt="" style="width:9vw; filter: invert(100%);">
+          <h5 style="color:#f00; font-family:sans-serif;">Diet Makes You</h5>
+          <p style="color:white; font-size: smaller;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error
+            dolor voluptatem suscipit, quos tenetur? Molestiae veniam nihil laudantium ipsam!</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr>
+  </section>
+
+  <!-- Pricing segment -->
+  <section id="subscriptions">
+    <div class="row row-cols-1 row-cols-md-3 g-4 d-flex flex-row">
+      <div class="col">
+        <div class="card h-100" style="border: none; background-color: rgb(21, 22, 22);">
+          <div class="card-body text-light">
+            <section id="first-card" class="px-3 py-2" style="width:42vw;">
+              <span style="color:#f00; text-align: start; font-size:large;">Pricing Plan</span>
+              <h2 class="text-white">Affordable Princing<br>Plan For Your</h2>
+              <p class="text-light" style="font-size: smaller; opacity: 0.79;">Lorem ipsum dolor sit amet </p>
+              <div id="checks" class="d-flex  flex-column">
+
+                <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                    class="fa-solid fa-check" style="color: #f00"></i> Cardio Exercise
+                <p>
+
+                <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                    class="fa-solid fa-check" style="color: #f00"></i> Weight Lifting
+                <p>
+
+                <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                    class="fa-solid fa-check" style="color: #f00"></i> Diet Plans
+                <p>
+
+                <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                    class="fa-solid fa-check" style="color: #f00"></i> Overall Results
+                <p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 " style="border: none; background-color: black ;">
+          <div class="card-body  text-light " style="background-color: rgb(21, 22, 22);">
+            <h5 class="card-title text-center">Basic Plan</h5>
+            <p class="card-text text-center" style="font-family: Arial, Helvetica, sans-serif;">$ <span
+                style="color:#f00; font-size: 2rem; font-family: Arial, Helvetica, sans-serif;">30</span>/Mon</p>
+            <section class="d-flex flex-column text-center">
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-xmark fa-xs fa-lg" style="color:#f00"></i> Personal Training
+              <p>
+
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Cardio Exercise
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Weight Lifting
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-xmark fa-xs fa-lg" style="color: #f00"></i> Diet Plans
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Overall Results
+              <p>
+                <button class="text-white"
+                  style="background-color: #f00; padding:5px 20px; border: none; border-radius:4px; ">Subscribe
+                  Now</button>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Premium plan card -->
+      <div class="col">
+        <div class="card h-100 " style="border: none;">
+          <div class="card-body  text-light " style="background-color: rgb(21, 22, 22);">
+            <h5 class="card-title text-center">Premium Plan</h5>
+            <p class="card-text text-center" style="font-family: Arial, Helvetica, sans-serif;">$ <span
+                style="color:#f00; font-size: 2rem; font-family: Arial, Helvetica, sans-serif;">90</span>/Mon</p>
+            <section class="d-flex flex-column text-center">
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Personal Training
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Cardio Exercise
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Weight Lifting
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Diet Plans
+              <p>
+              <p class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;"><i
+                  class="fa-solid fa-check" style="color: #f00"></i> Overall Results
+              <p>
+                <button class="text-white"
+                  style="background-color: #f00; padding:5px 20px; border: none; border-radius:4px; ">Subscribe
+                  Now</button>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  </section>
+  <!-- Bmi and features -->
+  <!-- Bmi calculator Header -->
+
+  <h1 class="text-center mt-4 m-auto" id="calculator"
+    style="color:#f00; border:2px solid #f00; max-width: fit-content;">Check Your
+    Fitness Level</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 d-flex flex-row mt-2" style="background-color: black;">
+    <div class="col bmi-cal-card d-inline-flex m-auto">
+      <div class="card h-100" style="border: none; background-color: rgb(21, 22, 22);">
+        <div class="card-body text-light ">
+
+          <!--Calculator Input Section-->
+          <section id="Bmi-cal">
+            <p>BMI <span class="text-white">Calculator</span></p>
+            <section class="gender-selection d-flex">
+              <div class="female">
+                <label for="female_input"><img src="images/img-female.png" alt="female"></label><br>
+                <input type="radio" name="gender" id="female_input" class="bmi-inputs">
+              </div>
+
+              <div class="male">
+                <label for="male_input"><img src="images/img11.png" alt="male"></label><br>
+                <input type="radio" name="gender" id="male_input" class="bmi-inputs">
+              </div>
+            </section>
+            <hr>
+
+            <!-- Calculator Form section -->
+            <section class="forminput">
+              <form action="">
+                <label for="Age-dob">DOB: </label>
+                <input type="date" id="Age-dob" class="bmi-inputs" name="Age-dob">
+                <label for="weight">Weight: </label>
+                <input type="number" id="weight" class="bmi-inputs" name="weight" placeholder="in Kg's" min="1">
+                <label for="height" class="height">height: </label>
+                <input type="number" id="height-cm" class="bmi-inputs" name="height" placeholder="in Cm" min="1">
+                <button class="calculate-btn">Calculate</button>
+              </form>
+            </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- BMI calculated Results display Section -->
+    <div class="col d-none" id="calculate-partId">
+      <div class="card h-100 " style="border: none; background-color: black;">
+        <div class="card-body  text-light bmiResult " style="background-color: rgb(21, 22, 22);">
+          <h5 class="card-title text-center"><span style="color: #f00;">Calculated</span> Results</h5>
+          <hr>
+          <p class="card-text text-center bmi-num-part"></p>
+          <main class="d-flex flex-column text-center fs-4">
+            <p class="state">Normal</p>
+            <p class="Age">Age:18.5</p>
+            <p class="height-inch-meter">5.7 feet<span style="color:#f00;"> / </span>83 Meter</p>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- Bmi Features Section End -->
+
+    <!-- Footer Section  Start  -->
+    <div class="container w-100 mt-3 " id="contact" style="background-color: rgb(21, 22, 22);">
+      <footer class="py-3 my-3">
+        <ul class="nav justify-content-center  pb-3 mb-3">
+          <li class="nav-item"><a href="#home" class="nav-link px-3 text-white">Home</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link px-3 text-white">Features</a></li>
+          <li class="nav-item"><a href="#subscriptions" class="nav-link px-3 text-white">Pricing</a></li>
+          <li class="nav-item"><a href="#About" class="nav-link px-3 text-white">About</a></li>
+        </ul>
+        <div class="d-flex mt-4 flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p class="text-white mx-3">© 2023 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" target="_blank" href="https://www.facebook.com"><i
+                  class="fa-brands fa-facebook fa-2xl text-light"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" target="_blank" href="https://www.instagram.com"><i
+                  class="fa-brands fa-instagram fa-2xl text-light"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" target="_blank" href="https://www.twitter.com"><i
+                  class="fa-brands fa-twitter fa-2xl text-light"></i></a></li>
+          </ul>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+          <script src="app.js"></script>
+          <script src="https://kit.fontawesome.com/b8258a6fb8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

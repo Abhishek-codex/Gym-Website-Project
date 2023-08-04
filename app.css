@@ -1,0 +1,327 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+#logo_span {
+    color: #f00;
+}
+
+.nav-link:hover {
+    background-color: #f00;
+}
+
+#navbarSupportedContent {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 12pt;
+    color: white;
+    background: #f00;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    padding: 7px 20px;
+    margin: 4px;
+    position: relative;
+    top: 30vh;
+    cursor: pointer;
+    right: 24vw;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+
+#first_img_para {
+    color: #f00;
+    z-index: 1;
+    position: relative;
+    top: 20vh;
+    left: 3vw;
+}
+
+#first_img_heading {
+    display: inline-block;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 20vh;
+    left: 3vw;
+    font-size: 400;
+}
+
+#second_img_heading {
+    display: inline-block;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 35vh;
+    left: 3vw;
+    font-size: 400;
+}
+
+#third_img_heading {
+    display: inline-block;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 30vh;
+    left: 2vw;
+    font-size: 400;
+}
+
+#left-first-para,
+#left-second-para {
+    padding-left: 2.5vw;
+    padding-bottom: 2vh;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: 4vh;
+}
+
+#right-first-para,
+#right-second-para {
+    padding-bottom: 2vh;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: 4vh;
+}
+
+.carousel .carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    position: relative;
+    bottom: 5vh;
+}
+
+#img-1 img {
+    position: relative;
+    bottom: 25vh;
+}
+
+#gym-features {
+    margin-left: 45%;
+    margin-top: 5vh;
+    color: #f00;
+    width: fit-content;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* Gender bmi section */
+#Bmi-cal p {
+    color: #f00;
+    font-size: larger;
+    text-align: center;
+}
+
+.forminput form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.forminput input {
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.forminput .height input {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.gender-selection {
+    padding-left: 9vw;
+}
+
+.gender-selection img {
+    position: relative;
+    right: 1.5vw;
+}
+
+.gender-selection .female img {
+    filter: invert(1);
+    width: 50%;
+    cursor: pointer;
+}
+
+.gender-selection .male img {
+    filter: invert(1);
+    width: 60%;
+    right: 2.5vw;
+    cursor: pointer;
+}
+
+
+
+.calculate-btn {
+    padding: 7px 10px;
+    width: min-content;
+    margin: auto;
+    border: none;
+    border-radius: 7px;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f00;
+    color: white;
+}
+
+.calculate-btn:hover {
+    transform: scale(1.1);
+}
+
+.calculate-part {
+    margin: auto;
+    display: flex;
+}
+
+
+
+.bmi-num-part,
+.bmi-num-part>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.bmi-num-part>sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #f00;
+}
+
+/* WeightState img*/
+.bmi_image {
+    display: inline;
+    width: 55px;
+}
+
+/* Media query for tablet or (min:768px and max:1024)*/
+@media (min-width:768px) and (max-width:1023px) {
+    html {
+        max-height: 200vh;
+    }
+
+    /* coruresel images setup */
+    #img-1 img {
+        position: relative;
+        bottom: 10vh;
+    }
+
+    #first_img_para,
+    #first_img_heading {
+        position: relative;
+        top: 12vh;
+    }
+
+    .button {
+        top: 16vh;
+        right: 34vw;
+    }
+
+    #img-2,
+    #img-3 {
+        top: -6vh;
+    }
+
+    #third_img_heading {
+        top: 18vh;
+    }
+
+    #second_img_heading {
+        top: 25vh;
+        left: 34vw;
+    }
+
+    .aboutus_img {
+        max-height: 21vh;
+        max-width: 35vh;
+        position: relative;
+        right: 4vw;
+    }
+
+    #first-card h2 {
+        font-size: large;
+    }
+}
+
+/* media query for smartphones */
+@media (max-width:767px) {
+   
+    .button {
+        top: 19vh;
+        right: 36vw;
+        font-size: small
+    }
+
+    #first_img_para,
+    #first_img_heading {
+        position: relative;
+        top: 14vh;
+        font-size: small;
+    }
+
+    #img-1 img {
+        position: relative;
+        bottom: 11vh;
+        height: 36vh;
+    }
+
+    #img-2,
+    #img-3 {
+        top: -11vh;
+    }
+
+    #third_img_heading {
+        top: 11vh;
+        font-size: small;
+
+    }
+
+    #second_img_heading {
+        top: 13vh;
+        left: 2vw;
+        font-size: small;
+    }
+
+    .aboutus_img {
+        position: relative;
+        bottom: 11vh;
+        left: 4vw;
+    }
+
+    #gym-features {
+        margin-left: 33%;
+        margin-top: -3vh;
+    }
+    #first-card{
+        margin: auto;
+    }
+    
+    .bmiResult{
+
+        width:100vw;
+        margin-top: 2.5vh;
+    }
+    
+}
